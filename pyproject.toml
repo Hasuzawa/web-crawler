@@ -1,12 +1,14 @@
 [tool.poetry]
 name = "web-crawler"
 version = "0.1.0"
-description = ""
-authors = ["Hasuzawa"]
+description = "simple web crawler"
+authors = ["Hasuzawa <hasuzawa.yuichi.international@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+aiohttp = "^3.9.5"
+bs4 = "^0.0.2"
 
 
 [build-system]
