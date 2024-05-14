@@ -2,7 +2,7 @@
 name = "web-crawler"
 version = "0.1.0"
 description = ""
-authors = ["Hasuzawa <hasuzawa.yuichi.international@gmail.com>"]
+authors = ["Hasuzawa"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
