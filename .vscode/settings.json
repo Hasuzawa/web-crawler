@@ -1,0 +1,18 @@
+{
+  "workbench.tree.indent": 12,
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.unusedImports": "explicit"
+    }
+  },
+  "black-formatter.args": ["--config", ".config/pyproject.toml"],
+
+  "[json][jsonc][yml][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}
